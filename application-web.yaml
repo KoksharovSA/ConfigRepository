@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          payment:
+            url: http://localhost:8765/productApp
