@@ -1,13 +1,3 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/gb
-    username: serg
-    password: admin
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-
 eureka:
   client:
     service-url:
