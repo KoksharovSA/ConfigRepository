@@ -3,5 +3,5 @@ spring:
     openfeign:
       client:
         config:
-          payment:
+          productApp:
             url: http://localhost:8765/productApp
